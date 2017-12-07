@@ -1,0 +1,37 @@
+body{
+    background-size: cover;
+    text-align: center;
+    background-color: black;
+    font-size: 50px;
+    color: peachpuff;
+
+}
+#Pics{
+    text-align: left;
+    position: relative;
+}
+#reset{
+    height: 50px;
+    width: 100px;
+    background-color: peachpuff;
+
+}
+#innerStuff{
+    position: relative;
+}
+#Difficulty{
+    width: 400px;
+    height: 50px;
+    font-size: 40px;
+    background-color: peachpuff;
+}
+
+#board{
+    color: peachpuff;
+    border-width: 1px;
+    border-color: peachpuff;
+}
+
+#lettersGuessed{
+    color: peachpuff;
+}

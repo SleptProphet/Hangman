@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" type = "text/css" href = "CSS.css">
+    <script src = "Script.js"></script>
+
+</head>
+<body>
+    Choose Your Difficulty:
+    <select id="Difficulty" onchange="setBoard()">
+        <option value="1">Easy</option>
+        <option value="2">Medium</option>
+        <option value="3">Hard</option>
+        <option value="4">Impossible</option>
+    </select>
+    <div id="board"></div>
+    Pick a Letter Dude
+    <br>
+    <div id="stuff">
+        <div id="Pics"></div>
+        <div id="innerStuff">
+            <input type="text" id="guess" name="guess" height="150" width = 200 placeholder="Guess">
+            <button id="myButton" onclick="guess()">Guess!</button>
+            <br>
+            <div id="lettersGuessed"></div>
+            <br>
+            Guesses Left <div id="guessesLeft"></div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
